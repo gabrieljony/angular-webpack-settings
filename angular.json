@@ -132,5 +132,10 @@
       }
     }
   },
-  "defaultProject": "angular-webpack-settings"
+  "defaultProject": "angular-webpack-settings",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
